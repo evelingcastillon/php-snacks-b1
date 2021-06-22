@@ -16,7 +16,9 @@
 </head>
 <body>
 
-    <form action=""></form>
-    <input type="email" name="" id="">
+    <form action="">
+        <input type="email" name="email" id="email" required>
+        <input type="text" name="nome" id="nome">
+    </form>
 </body>
 </html>
