@@ -5,7 +5,7 @@ $newArray = [];
 
 while (count($newArray) < 15) {
     
-    $numeri = rand(99);
+    $numeri = rand(0, 99);
 
     if (!in_array($numeri, $newArray)) {
         $newArray[] = $numeri;
