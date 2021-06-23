@@ -57,7 +57,7 @@ var_dump($ads[0]['is_active']);
             ?>
             
             <img src="<?php echo $ad['image_path']?>" alt="">
-            
+            <a href="<?php echo $ad['link'] ?>">link</a>
             
 
             <?php
