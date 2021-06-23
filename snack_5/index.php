@@ -1,7 +1,9 @@
 <?php
 
+//Prendere un paragrafo abbastanza lungo, contenente diverse frasi.
 $paragrafoPrincipale = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti molestiae reiciendis doloribus minima, a vitae error totam sapiente sunt, illo placeat necessitatibus magni. Voluptatibus dolorem ex, aliquam libero veniam asperiores quod a tempore fuga eaque ipsa omnis repellendus, corrupti excepturi, ducimus suscipit praesentium alias quo quaerat sunt nisi. Itaque id ullam officiis natus in iusto rerum distinctio dolore dolorum accusamus mollitia vitae, provident perferendis minima, officia minus nesciunt aspernatur atque voluptatibus laudantium doloribus, quod dignissimos rem accusantium. Mollitia quos atque, ea ut dignissimos necessitatibus? Labore et repudiandae vel qui? Fugiat doloribus recusandae voluptatem dolore fugit hic amet quam unde.';
 
+//Prendere il paragrafo e suddividerlo in tanti paragrafi.
 $paragrafi = explode(".", $paragrafoPrincipale);
 
 var_dump($paragrafi);
@@ -21,6 +23,7 @@ var_dump($paragrafi);
 
 
     <h3>Paragrafi:</h3>
+    <!-- Ogni punto un nuovo paragrafo. -->
     <?php for ($i=0; $i < count($paragrafi) ; $i++) { 
         $parag = $paragrafi[$i]; ?>
         
